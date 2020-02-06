@@ -1,0 +1,23 @@
+.homepage {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-div {
+  width: 25%;
+  height: auto;
+}
+
+.center-div {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.right-div {
+  width: 25%;
+  height: auto;
+}

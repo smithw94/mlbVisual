@@ -1,7 +1,7 @@
-#teams {
+/* #teams {
   float: left;
   width: 25%;
-}
+} */
 
 .team:hover {
   cursor: pointer;

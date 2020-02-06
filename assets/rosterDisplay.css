@@ -1,8 +1,8 @@
-#roster {
-  float: left;
+/* #roster {
+  float: right;
   width: 25%;
   border: 1px solid black;
-}
+} */
 
 .player-names:hover {
   cursor: pointer;
