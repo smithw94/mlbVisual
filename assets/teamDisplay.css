@@ -1,9 +1,13 @@
 #teams {
   float: left;
   width: 25%;
-  border: 1px solid black;
 }
 
-.team-names:hover {
+.team:hover {
   cursor: pointer;
+}
+
+.team-container {
+  display: flex;
+  flex-flow: column wrap
 }
