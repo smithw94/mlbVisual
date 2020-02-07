@@ -11,14 +11,14 @@
 }
 
 .center-div {
+  width: 20%;
+  height: auto;
+}
+
+.right-div {
   width: 40%;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-.right-div {
-  width: 20%;
-  height: auto;
 }

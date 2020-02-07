@@ -10,5 +10,8 @@
 }
 .image-border:hover {
   stroke: black;
+  fill: grey;
   cursor: pointer;
+  opacity: .1;
+  border-radius: 5px;
 }
