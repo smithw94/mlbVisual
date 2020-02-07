@@ -10,12 +10,14 @@
 
     <script src="https://d3js.org/d3.v5.js"></script>
     <script type="text/javascript" src="./lib/displayTeams.js"></script>
+    <script type="text/javascript" src="./lib/teamStats.js"></script>
     <script type="text/javascript" src="./lib/displayRoster.js"></script>
     <script type="text/javascript" src="./lib/displayPlayer.js"></script>
     <script type="text/javascript" src="./lib/displayField.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         displayTeams();
+        teamStats();
         displayField();
       });
     </script>
@@ -24,7 +26,7 @@
       <div class="left-div" id='teams'>
       </div>
 
-      <div class="center-div" id='roster'>
+      <div class="center-div">
       </div>
 
       <div class="right-div">
@@ -33,7 +35,6 @@
         <div id='player'>
         </div>
       </div>
-
     </div>
   </body>
 </html>
