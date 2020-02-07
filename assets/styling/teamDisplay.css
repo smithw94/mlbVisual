@@ -1,0 +1,14 @@
+.left-div {
+  border-left: 1px solid black;
+}
+
+.image-border {
+  fill: transparent;
+  stroke: transparent;
+  shape-rendering: crispEdges;
+  
+}
+.image-border:hover {
+  stroke: black;
+  cursor: pointer;
+}
