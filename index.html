@@ -10,15 +10,13 @@
 
     <script src="https://d3js.org/d3.v5.js"></script>
     <script type="text/javascript" src="./lib/displayTeams.js"></script>
-    <script type="text/javascript" src="./lib/teamStats.js"></script>
     <script type="text/javascript" src="./lib/displayRoster.js"></script>
     <script type="text/javascript" src="./lib/displayPlayer.js"></script>
     <script type="text/javascript" src="./lib/displayField.js"></script>
+    <script type="text/javascript" src="./lib/displayPie.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         displayTeams();
-        teamStats();
-        displayField();
       });
     </script>
   </head>
@@ -27,12 +25,14 @@
       </div>
 
       <div class="center-div">
+        <div id='field'>
+        </div>
+        <div id='player'>
+        </div>
       </div>
 
       <div class="right-div">
         <div id='field'>
-        </div>
-        <div id='player'>
         </div>
       </div>
     </div>
