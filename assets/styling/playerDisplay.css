@@ -1,3 +1,5 @@
-/* #player {
-  height: 300px;
-} */
+.stat-border {
+  fill: transparent;
+  stroke: transparent;
+  shape-rendering: crispEdges;
+}
