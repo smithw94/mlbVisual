@@ -3,30 +3,25 @@
   align-items: center;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
 }
 
 .left-div {
-  /* border: 1px solid black; */
-  border-left: 1px solid black;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
 
 .center-div {
-  height: auto;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  overflow-y: auto;
 }
 
 .right-div {
   height: auto;
-  /* border: 1px solid black; */
-  border-right: 1px solid black;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
