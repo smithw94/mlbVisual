@@ -7,7 +7,7 @@
 }
 .image-border:hover {
   stroke: black;
-  fill: grey;
+  fill: #69b3a2;
   cursor: pointer;
   opacity: .1;
   border-radius: 5px;
