@@ -12,3 +12,11 @@
   opacity: .1;
   border-radius: 5px;
 }
+
+.selected {
+  stroke: black;
+  fill: #69b3a2;
+  cursor: pointer;
+  opacity: .3;
+  border-radius: 5px;
+}
