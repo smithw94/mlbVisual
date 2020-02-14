@@ -13,9 +13,6 @@
 
 .center-div {
   height: 704px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   overflow-y: auto;
