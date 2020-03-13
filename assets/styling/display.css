@@ -1,33 +1,35 @@
 .homepage {
-  padding-top: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 30px;
+  padding-left: 100px;
   font-family: 'Roboto', sans-serif;
+  overflow-x: scroll;
+  white-space: nowrap;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .left-div {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  height: auto;
+  display: inline-block;
 }
 
 .center-div {
   height: 664px;
-  padding-top: 40px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  padding-top: 50px;
+  display: inline-block;
 }
 
 .right-div {
   height: auto;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  display: inline-block;
+  padding-bottom: 10px;
 }
 
 .links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .links a {
@@ -37,6 +39,6 @@
   padding-top: 13px;
 }
 
-body {background: rgb(255,255,255);
+body {
   background: radial-gradient(circle, rgba(255,255,255,1) 74%, rgba(214,214,214,1) 100%);
 }
